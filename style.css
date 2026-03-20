@@ -1,0 +1,19 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+#weather-container {
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
