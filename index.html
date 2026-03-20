@@ -2,24 +2,23 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>고속도로 기상 브리핑</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <h1>고속도로 기상 브리핑</h1>
 
-<h1>고속도로 기상 브리핑</h1>
+  <div id="update-time"></div>
 
-<div id="update-time"></div>
+  <select id="highway-select">
+    <option value="gyeongbu">경부선</option>
+    <option value="seohaean">서해안선</option>
+    <option value="yeongdong">영동선</option>
+  </select>
 
-<select id="highway-select">
-  <option value="gyeongbu">경부선</option>
-  <option value="seohaean">서해안선</option>
-  <option value="yeongdong">영동선</option>
-</select>
+  <div id="weather-container"></div>
 
-<div id="weather-container"></div>
-
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>

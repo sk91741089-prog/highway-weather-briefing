@@ -1,18 +1,18 @@
 {
-  "update_time": "2026-03-20 09:00",
+  "update_time": "2026-03-20 10:00",
   "highways": {
     "gyeongbu": [
-      {"name": "서울~천안", "weather": "비"},
-      {"name": "천안~대전", "weather": "안개"},
-      {"name": "대전~대구", "weather": "맑음"}
+      { "name": "서울~천안", "weather": "비" },
+      { "name": "천안~대전", "weather": "안개" },
+      { "name": "대전~대구", "weather": "맑음" }
     ],
     "seohaean": [
-      {"name": "서울~서산", "weather": "안개"},
-      {"name": "서산~군산", "weather": "비"}
+      { "name": "서울~서산", "weather": "안개" },
+      { "name": "서산~군산", "weather": "비" }
     ],
     "yeongdong": [
-      {"name": "강릉~평창", "weather": "눈"},
-      {"name": "평창~원주", "weather": "맑음"}
+      { "name": "강릉~평창", "weather": "눈" },
+      { "name": "평창~원주", "weather": "맑음" }
     ]
   }
 }
